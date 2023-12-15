@@ -3,6 +3,9 @@
 ## Description
 Motus Game is a Java-based word puzzle game implemented using Swing for the graphical user interface. The game utilizes several classes from the "controllers" package, each responsible for specific aspects of the game.
 
+![mo](https://github.com/selairgi/Motus-Game/assets/113915540/fb706d7f-66dd-4916-bfd0-5dca736ad97a)
+
+
 ## Classes
 
 ### 1. MotusFrame (graphics/MotusFrame.java)
