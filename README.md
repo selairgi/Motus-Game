@@ -21,7 +21,7 @@ Motus Game is a Java-based word puzzle game implemented using Swing for the grap
 - **Description:** Represents a matrix that stores user entries. It is used to keep track of the user's attempts during the game.
 
 ### 5. Dictionary (controllers/Dictionary.java)
-- **Description:** Reads a "dictionnary.txt" file and stores its content in a List<String>. The dictionary is used to choose a random word for the game.
+- **Description:** Reads a "Doc.txt" file and stores its content in a List<String>. The dictionary is used to choose a random word for the game.
 
 ### 6. WordChooserGUI (controllers/WordChooserGUI.java)
 - **Description:** Interacts with the user to gather information such as difficulty level, player name, and the desired number of characters in the word. It communicates with the Dictionary class to obtain a word for the game.
@@ -43,5 +43,9 @@ The player's score is stored in a file named "score". Each player's score is mai
 - The game includes a timer, and if the time runs out, the game ends with the correct word revealed.
 - The code includes a restart feature to begin a new game.
 - The project structure assumes that certain resources (like the dictionary file) are present in specific locations. Ensure these files are available for the proper functioning of the game.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
 Feel free to modify or extend the code to add new features or improve existing ones. Enjoy playing Motus!
